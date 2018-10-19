@@ -45,7 +45,7 @@ function fish_prompt
     set prompt_color (set_color red)
   end
 
-  echo -sn $prompt_color "❯ " (set_color normal)
+  echo -sn $prompt_color "⠖ " (set_color normal)
 
   set __pure_new_session 0
 end
