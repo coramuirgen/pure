@@ -5,7 +5,7 @@ function fish_prompt
 
   # skip first prompt line for near-instant initial load
   if test $__pure_new_session -eq 0
-    echo "\n"
+    echo ""
 
     # root or ssh session
     set -l uid (id -u)
